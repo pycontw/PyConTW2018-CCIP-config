@@ -13,6 +13,11 @@
         "id": "kit",
         "staff_query_used": true,
         "unlock": true
+      },
+      {
+        "id": "day1lunch",
+        "staff_query_disable_message": "Please use your badge",
+        "unlock": true
       }
     ]
   },
@@ -67,6 +72,11 @@
       {
         "id": "kit",
         "staff_query_used": true,
+        "unlock": true
+      },
+      {
+        "id": "day2lunch",
+        "staff_query_disable_message": "Please use your badge",
         "unlock": true
       }
     ]
