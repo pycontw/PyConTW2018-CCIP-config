@@ -5,24 +5,16 @@
       "en-US": "Day 1 Check-in",
       "zh-TW": "Day 1 報到"
     },
-    "available_time": "2016/08/20 7:30 +0800",
-    "expire_time": "2016/08/20 17:00 +0800",
+    "available_time": "2018/06/01 8:10 +0800",
+    "expire_time": "2018/06/01 17:00 +0800",
     "countdown": 0,
     "related_scenario": [
       {
         "id": "kit",
         "staff_query_used": true,
         "unlock": true
-      },
-      {
-        "id": "day1lunch",
-        "disable_time": "2016/08/20 10:30 +0800",
-        "disable_message": "Too late to check-in",
-        "staff_query_disable_message": "Please use your badge",
-        "unlock": true
       }
-    ],
-    "deliver_puzzle": 2
+    ]
   },
   "kit": {
     "order": 1,
@@ -30,8 +22,8 @@
       "en-US": "Welcome Kit",
       "zh-TW": "迎賓袋"
     },
-    "available_time": "2016/08/20 8:30 +0800",
-    "expire_time": "2016/08/21 14:00 +0800",
+    "available_time": "2018/06/01 8:10 +0800",
+    "expire_time": "2018/06/02 17:00 +0800",
     "countdown": 30,
     "lock_message": "Haven't Check-in",
     "attr": [
@@ -47,8 +39,8 @@
       "en-US": "Day 1 Lunch",
       "zh-TW": "Day 1 午餐"
     },
-    "available_time": "2016/08/20 12:00 +0800",
-    "expire_time": "2016/08/21 14:00 +0800",
+    "available_time": "2018/06/01 11:40 +0800",
+    "expire_time": "2018/06/02 14:00 +0800",
     "countdown": 30,
     "lock_message": "Haven't Check-in",
     "attr": [
@@ -68,20 +60,13 @@
       "en-US": "Day 2 Check-in",
       "zh-TW": "Day 2 報到"
     },
-    "available_time": "2016/08/21 7:30 +0800",
-    "expire_time": "2016/08/21 17:00 +0800",
+    "available_time": "2018/06/02 8:20 +0800",
+    "expire_time": "2018/06/02 16:00 +0800",
     "countdown": 0,
     "related_scenario": [
       {
         "id": "kit",
         "staff_query_used": true,
-        "unlock": true
-      },
-      {
-        "id": "day2lunch",
-        "disable_time": "2016/08/21 10:30 +0800",
-        "disable_message": "Too late to check-in",
-        "staff_query_disable_message": "Please use your badge",
         "unlock": true
       }
     ]
@@ -92,8 +77,8 @@
       "en-US": "Day 2 Lunch",
       "zh-TW": "Day 2 午餐"
     },
-    "available_time": "2016/08/21 12:00 +0800",
-    "expire_time": "2016/08/21 14:00 +0800",
+    "available_time": "2018/06/02 11:40 +0800",
+    "expire_time": "2018/06/02 14:00 +0800",
     "countdown": 30,
     "lock_message": "Haven't Check-in",
     "attr": [
@@ -106,20 +91,5 @@
         }
       }
     ]
-  },
-  "vipkit": {
-    "order": 5,
-    "display_text": {
-      "en-US": "Special Gift",
-      "zh-TW": "獨家紀念品"
-    },
-    "available_time": "2016/08/20 8:15 +0800",
-    "expire_time": "2016/08/21 14:00 +0800",
-    "countdown": 30,
-    "not_lock_rule": {
-      "row_name": "個人贊助",
-      "value_match": "Y",
-      "not_match_disable_message": "For Supporters Only"
-    }
   }
 }
